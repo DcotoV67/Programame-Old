@@ -12,10 +12,8 @@ public class Problema112 {
         distancia = in.nextInt();
         velocidad = in.nextInt()/(3.6);
         segundos = in.nextInt();
+
         while (distancia != 0.0 || velocidad != 0.0 || segundos != 0.0) {
-
-
-
 
             double velocidad_coche = distancia / segundos;
 
